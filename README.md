@@ -8,11 +8,14 @@
 
 ##  Project Objective
 
-Simulating a real-world scenario for an e-commerce company, this project analyzes sales data to:
-- Understand customer behavior
-- Perform RFM (Recency, Frequency, Monetary) segmentation
-- Visualize trends through a Power BI dashboard
-- Provide actionable business recommendations to improve revenue and retention
+This project was executed as a Business Analytics initiative for a mid-sized e-commerce company seeking to improve its sales performance and customer retention strategy through data-driven insights.
+
+-The primary objectives included:
+-Analyzing customer behavior and purchasing patterns across time, geography, and product categories to uncover key revenue drivers.
+-Applying RFM (Recency, Frequency, Monetary) segmentation to classify customers into actionable groups such as loyal champions, one-time buyers, and at-risk users.
+-Creating an interactive Power BI dashboard to visualize sales trends, payment preferences, product performance, and customer value distribution for business stakeholders.
+-Providing strategic business recommendations to increase repeat purchases, implement loyalty and subscription models, and improve campaign targeting.
+-This real-world Business Analytics project helped the company translate raw transactional data into actionable growth strategies
 
 ---
 
@@ -39,15 +42,20 @@ Simulating a real-world scenario for an e-commerce company, this project analyze
 - Filtered relevant time frame: **May 2016 – Oct 2018**
 
 ### 3. **Python EDA & RFM Segmentation**
+- Data Cleaning -> merging -> RFM Segmentation -> Rating
 - **Recency** = Days since last order  
 - **Frequency** = Number of orders per customer  
 - **Monetary** = Total payment value
 
-Sample RFM Table:
-| CustomerID | Recency | Frequency | Monetary | R | F | M | RFM_Score |
-|------------|---------|-----------|----------|---|---|---|-----------|
-| 00012a...  | 287     | 1         | ₹114.74  | 2 | 1 | 3 | 6         |
-| 000161...  | 409     | 1         | ₹67.41   | 1 | 1 | 2 | 4         |
+## RFM Table:
+| CustomerID                              | Recency | Frequency | Monetary | R | F | M | RFM_Score |
+|----------------------------------------|---------|-----------|----------|---|---|---|-----------|
+| 00012a2ce6f8dcda20d059ce98491703       | 287     | 1         | 114.74   | 2 | 1 | 3 | 6         |
+| 000161a058600d5901f007fab4c27140       | 409     | 1         | 67.41    | 1 | 1 | 2 | 4         |
+| 0001fd6190edaaf884bcaf3d49edf079       | 547     | 1         | 195.42   | 1 | 1 | 4 | 6         |
+| 0002414f95344307404f0ace7a26f1d5       | 378     | 1         | 179.35   | 1 | 1 | 4 | 6         |
+| 000379cdec625522490c315e70c7a9fb       | 149     | 1         | 107.01   | 3 | 1 | 3 | 7         |
+
 
 ---
 
@@ -94,18 +102,20 @@ Sample RFM Table:
 ---
 
 ##  Project Structure
+```
 /Financial_Analytics
 │
 ├── SQL/
-│ └── data_cleaning_queries.sql
+│   └── data_cleaning_queries.sql
 │
 ├── Python/
-│ └── RFM_analysis.ipynb
+│   └── RFM_analysis.ipynb
 │
 ├── PowerBI/
-│ └── Dashboard.pbix
-│ └── Power-Bi Dashboard.png
+│   └── Dashboard.pbix
+│   └── Power-Bi Dashboard.png
 │
 └── README.md
+```
 
 
