@@ -9,14 +9,14 @@
 ##  Project Objective
 
 This project was executed as a Business Analytics initiative for a mid-sized e-commerce company seeking to improve its sales performance and customer retention strategy through data-driven insights.
-
+```
 -The primary objectives included:
 -Analyzing customer behavior and purchasing patterns across time, geography, and product categories to uncover key revenue drivers.
 -Applying RFM (Recency, Frequency, Monetary) segmentation to classify customers into actionable groups such as loyal champions, one-time buyers, and at-risk users.
 -Creating an interactive Power BI dashboard to visualize sales trends, payment preferences, product performance, and customer value distribution for business stakeholders.
 -Providing strategic business recommendations to increase repeat purchases, implement loyalty and subscription models, and improve campaign targeting.
 -This real-world Business Analytics project helped the company translate raw transactional data into actionable growth strategies
-
+```
 ---
 
 ##  Tools & Technologies Used
