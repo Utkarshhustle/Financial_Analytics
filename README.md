@@ -1,14 +1,12 @@
-# 📊 E-Commerce Sales Analysis Dashboard
+#  E-Commerce Sales Analysis Dashboard
 
 **Project Type:** End-to-End Business Analytics  
 **Tech Stack:** SQL · Python · Power BI  
 **Duration:** 3 Weeks  
-**Status:** Completed  
-**Repository:** [Financial_Analytics](https://github.com/Utkarshhustle/Financial_Analytics)
 
 ---
 
-## 🧭 Project Objective
+##  Project Objective
 
 Simulating a real-world scenario for an e-commerce company, this project analyzes sales data to:
 - Understand customer behavior
@@ -18,7 +16,7 @@ Simulating a real-world scenario for an e-commerce company, this project analyze
 
 ---
 
-## 🛠 Tools & Technologies Used
+##  Tools & Technologies Used
 
 | Tool      | Purpose                              |
 |-----------|--------------------------------------|
@@ -29,7 +27,7 @@ Simulating a real-world scenario for an e-commerce company, this project analyze
 
 ---
 
-## 🔄 Workflow Overview
+##  Workflow Overview
 
 ### 1. **Data Collection & Understanding**
 - Realistic e-commerce dataset with ~99K customers and 135K order items
@@ -53,7 +51,7 @@ Sample RFM Table:
 
 ---
 
-## 📈 Power BI Dashboard Insights
+##  Power BI Dashboard Insights
 
 **Dashboard Includes:**
 - Monthly Orders & Revenue Trend
@@ -66,7 +64,7 @@ Sample RFM Table:
 
 ---
 
-## 📊 Key Analytical Insights
+##  Key Analytical Insights
 
 - **Customer Spend**: Most customers spend ₹50–₹300, very few spend ₹1000+
 - **Order Frequency**: ~85–90% customers are one-time buyers
@@ -76,7 +74,7 @@ Sample RFM Table:
 
 ---
 
-## 💡 Final Business Recommendations
+##  Final Business Recommendations
 
 1. **Launch Loyalty Program**  
    To increase frequency among one-time buyers
@@ -95,6 +93,19 @@ Sample RFM Table:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
+/Financial_Analytics
+│
+├── SQL/
+│ └── data_cleaning_queries.sql
+│
+├── Python/
+│ └── RFM_analysis.ipynb
+│
+├── PowerBI/
+│ └── Dashboard.pbix
+│ └── Power-Bi Dashboard.png
+│
+└── README.md
 
 
